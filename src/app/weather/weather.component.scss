@@ -1,0 +1,44 @@
+.weather-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+  mat-form-field {
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+
+    &.city-select-field {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .clear-button {
+      padding: 0px;
+      border: none;
+      height: 0px;
+      margin-top: -8px;
+      margin-right: 4px;
+      align-self: center;
+    }
+
+    mat-icon {
+      height: 20px;
+    }
+  }
+
+  .forecast-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .forecast-card {
+    background: #e0e2ec;
+    padding: 8px;
+    border-radius: 8px;
+    width: 180px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
